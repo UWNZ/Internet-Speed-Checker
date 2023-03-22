@@ -1,7 +1,7 @@
 import speedtest
 
 test = speedtest.Speedtest()
-donwload = test.download()
+download = test.download()
 upload = test.upload()
 
 print(f"Download Speed : {download}")
